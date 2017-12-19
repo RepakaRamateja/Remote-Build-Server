@@ -1,0 +1,60 @@
+
+
+############################## start of the Build request ##############################
+
+
+
+
+
+ ######################### log start for the Test driver ########################### 
+
+
+
+
+ the command and output that is executed is shown below
+the time stamp is 131570822128601032
+
+
+  csc  /target:library  TestDriver.cs   TestedOne.cs  TestedTwo.cs  
+
+
+
+
+
+Generated-------->TestDriver.dll  in  ../../../CoreBuilder/Builderstorage/Builder8091
+
+
+
+ ############################# log end for the Test driver ##################################### 
+
+
+
+
+
+ ######################### log start for the Test driver ########################### 
+
+
+
+
+ the command and output that is executed is shown below
+the time stamp is 131570822130762640
+
+
+  csc  /target:library  SixTestDriver.cs   Interfaces.cs  TestedLibDependency.cs  TestedLib.cs  
+
+
+
+
+
+Generated-------->SixTestDriver.dll  in  ../../../CoreBuilder/Builderstorage/Builder8091
+
+
+
+ ############################# log end for the Test driver ##################################### 
+
+
+
+
+
+ ############################### end of the Build request ########################## 
+

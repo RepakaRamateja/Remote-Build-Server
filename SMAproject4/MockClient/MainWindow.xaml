@@ -1,0 +1,76 @@
+﻿<Window x:Class="MockClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MockClient"
+        mc:Ignorable="d"
+        Title="MockClient" Height="622.566" Width="1025" Loaded="Window_Loaded">
+  <Grid Margin="0,0,-8,0">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="89*"/>
+      <ColumnDefinition Width="116*"/>
+    </Grid.ColumnDefinitions>
+    <TabControl Grid.ColumnSpan="2" >
+      <TabItem Header="Generate Requests">
+        <Grid Margin="0,2,0,0">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="139*"/>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="186*"/>
+            <ColumnDefinition Width="676*"/>
+          </Grid.ColumnDefinitions>
+          <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Xml Contents" VerticalAlignment="Top" Height="351" Margin="157,39,0,0" Width="484" RenderTransformOrigin="0.5,0.5" Background="AliceBlue" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+         ScrollViewer.VerticalScrollBarVisibility="Auto" Name="XmlTextBlock" Grid.Column="3"/>
+          <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Select Driver" VerticalAlignment="Top" Width="147" Margin="76,28,0,0" Grid.ColumnSpan="3"/>
+          <ListBox HorizontalAlignment="Left" Height="104" Margin="52,82,0,0" VerticalAlignment="Top" Width="171" Name="driverlist" Grid.ColumnSpan="3" />
+          <Button Content="Generate" HorizontalAlignment="Left" Margin="156.536,283,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.444,1.667" Height="20" Click="generaterequest" Grid.Column="2" Grid.ColumnSpan="2"/>
+          <Button Content="ShowSelectedFiles" HorizontalAlignment="Left" Margin="67,489,0,0" VerticalAlignment="Top" Width="125" RenderTransformOrigin="0.588,2.283" Click="getselectedsource" Height="20" Grid.ColumnSpan="3"/>
+          <Button Content="Clear" HorizontalAlignment="Left" Margin="175,484,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0.165,0.333" Click="cleartextblock" Height="20" Grid.Column="3"/>
+          <Button Content="GetRepoContents" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" RenderTransformOrigin="0.773,3.9" Margin="156.536,229,0,0" Click="getrepocontents" Grid.Column="2" Grid.ColumnSpan="2"/>
+          <ListBox HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="171" Margin="52,332,0,0"  Name="filelist" SelectionMode="Multiple" RenderTransformOrigin="0.686,0.42" Grid.ColumnSpan="3"/>
+          <Button Content="ShowselectedDrivers" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" RenderTransformOrigin="2.24,7.05" Margin="67,234,0,0" Height="20" Click="showselecteddrivers" Grid.ColumnSpan="3"/>
+          <Label Content="BuildRequest" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="4.772,1.321" Margin="185,8,0,0" Grid.Column="3"/>
+          <TextBox HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="Enter file name" VerticalAlignment="Top" Width="130" Margin="330,484,0,0" Name="filename" Grid.Column="3"/>
+          <Button Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="509,484,0,0" Height="20" Click="savecontents" Grid.Column="3" RenderTransformOrigin="0.5,0.5"/>
+          <GridSplitter HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="5"/>
+          <Label Content="Files Saved at location ../../../MockClient/ClientStorage" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="3" Margin="239,534,0,-5" Height="33" Width="427"/>
+          <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Select Source files" VerticalAlignment="Top" Width="96" Grid.ColumnSpan="3" Margin="67,283,0,0"/>
+        </Grid>
+      </TabItem>
+      <TabItem Header=" Handle Build Requests">
+        <Grid>
+          <ListBox HorizontalAlignment="Left" Height="131" VerticalAlignment="Top" Width="166" Margin="32,267,0,0" RenderTransformOrigin="0.966,1.201" SelectionMode="Multiple"  Name="localbuildrequests"/>
+          <Button Content="show selected Requests" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Margin="32,447,0,0" Click="showselectedlocalxmlfiles"/>
+          <Label Content="Mock Client Local Contents " HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="32" Width="164" Margin="64,0,0,514"/>
+          <Label Content="Remote Mock Repo Contents" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="608,18,0,0" Width="164" Height="32"/>
+          <Button Content="Send Requests" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="20" Margin="237,447,0,0" Click="sendbuildrequests"/>
+          <Button Content="show selected Requests" HorizontalAlignment="Left" VerticalAlignment="Top" Width="139" Margin="473,452,0,0" Click="showselectedRemotexmlfiles"/>
+          <Button Content="Build" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Margin="673,447,0,0" Click="sendbuildCommMessage"/>
+          <ListBox HorizontalAlignment="Left" Height="131" VerticalAlignment="Top" Width="166" RenderTransformOrigin="6.031,1.67" Margin="509,267,0,0" SelectionMode="Multiple" Name="RemoteBuildrequests"/>
+          <Button Content="Local Build Requests" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="120" Margin="287,303,0,0" Click="getMockclientBuildRequests"/>
+          <Button Content="Remote Build Requests" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="845,308,0,0" Click="getremoteBuildRequests"/>
+          <TextBlock HorizontalAlignment="Left" Background="AliceBlue" TextWrapping="Wrap"  VerticalAlignment="Top" Width="383" Margin="32,73,0,0" Height="160"><Run Text="#####################################################"/><LineBreak/><Run Text=" Local Build Requests Button ----> Gets Mock client generated requests "/><LineBreak/><LineBreak/><LineBreak/><Run Text=" Show selected Requests Button ----> shows selected requests"/><LineBreak/><LineBreak/><Run Text="Send Requests ------->  Send Requests to Mock Repo "/><LineBreak/><LineBreak/><LineBreak/><Run Text="#####################################################"/><LineBreak/></TextBlock>
+          <TextBlock HorizontalAlignment="Left" Background="AliceBlue" TextWrapping="Wrap"  VerticalAlignment="Top" Width="383" Margin="509,73,0,0" Height="160"><Run Text="#####################################################"/><LineBreak/><Run Text=" Remote Build Requests ----> Gets Mock Repo generated requests "/><LineBreak/><LineBreak/><Run Text=" Show selected Requests Button ----> shows selected requests"/><LineBreak/><LineBreak/><Run Text="Build Requests ------->  Send Request Messages to Mock Repo which"></Run><LineBreak/><LineBreak/><Run Text=" inturn sends to Build Server"/><LineBreak/><LineBreak/><Run Text="#####################################################"/><LineBreak/></TextBlock>
+        </Grid>
+      </TabItem>
+      <TabItem Header="View Logs">
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="118*"/>
+            <ColumnDefinition Width="901*"/>
+          </Grid.ColumnDefinitions>
+          <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Margin="40,44,0,0" Height="178" Grid.ColumnSpan="2"><Run Text="Steps to View the remote logs"/><LineBreak/><LineBreak/><Run Text="Click on Get Remote logs"/><LineBreak/> <LineBreak/> <Run Text="Select logs and click on Download logs button"/> <LineBreak/><LineBreak/><Run Text="All the logs will be  Download from Mock Repo to local dir"/><LineBreak/><LineBreak/> <Run Text="Click on the load downloaded logs button"/><LineBreak/><LineBreak/><Run Text="Next double Click on any loaded items to see the logs "/></TextBlock>
+          <ListBox HorizontalAlignment="Left" Height="134" VerticalAlignment="Top" Width="322" Margin="40,256,0,0" Grid.ColumnSpan="2" SelectionMode="Multiple" Name="logFileList"/>
+          <Button Content="Download Logs" HorizontalAlignment="Right" VerticalAlignment="Top" Width="95" Grid.Column="1" Margin="0,466,702,0" Height="30" Click="downloadlogs"/>
+          <ListBox HorizontalAlignment="Left" Height="221" VerticalAlignment="Top" Width="403" Grid.Column="1" Margin="409,169,0,0" Name="downloadedlogfiles" MouseDoubleClick="localFiles_MouseDoubleClick"/>
+          <Label Content="Client Side: Double click on any loaded logs" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1" Margin="520,44,0,0"/>
+          <Button Content="Load Downloaded Logs" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Grid.Column="1" Margin="550,466,0,0" Height="30" Click="Retrivedownloadedlogfiles"/>
+          <Button Content="Get Remote logs" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Grid.ColumnSpan="2" Margin="75,466,0,0" Height="30" Click="getRemoteLogs"/>
+        </Grid>
+      </TabItem>
+    </TabControl>
+    <DataGrid HorizontalAlignment="Left" Height="551" Margin="2,41,0,0" VerticalAlignment="Top" Width="4" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
+
+  </Grid>
+</Window>

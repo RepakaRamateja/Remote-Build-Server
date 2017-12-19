@@ -1,0 +1,27 @@
+
+####################  Starting of a test ############################
+
+The time when Test harness executed these logs is131570822137288608
+
+
+ start  of  log  for  TestRequest3.xml
+
+
+ loaded {0} FourthDriver.dll
+
+  test {0} failed to run 
+
+
+
+ attempting to create instance of {0} ,TestBuild.FourthDriver
+
+
+
+###################  Test status #############################
+
+
+  test {0} passed
+
+
+####################   Ending of a test ##################################
+

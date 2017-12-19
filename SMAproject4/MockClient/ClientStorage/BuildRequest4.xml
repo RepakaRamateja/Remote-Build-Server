@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BuildRequest>
+  <Builds>
+    <BuildItem>
+      <driver>
+        <file>
+          <name>FifthDriver.cs</name>
+        </file>
+      </driver>
+      <sourcefiles>
+        <file>
+          <name>Interfaces.cs</name>
+        </file>
+        <file>
+          <name>TestedLib.cs</name>
+        </file>
+        <file>
+          <name>TestedLibDependency.cs</name>
+        </file>
+      </sourcefiles>
+    </BuildItem>
+  </Builds>
+</BuildRequest>

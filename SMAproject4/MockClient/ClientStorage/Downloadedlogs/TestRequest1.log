@@ -1,0 +1,92 @@
+
+####################  Starting of a test ############################
+
+The time when Test harness executed these logs is131570822132768005
+
+
+ start  of  log  for  TestRequest1.xml
+
+
+ loaded {0} SixTestDriver.dll
+
+  test {0} failed to run 
+
+
+
+ attempting to create instance of {0} ,TestBuild.Test1
+
+
+
+###################  Test status #############################
+
+
+  test {0} passed
+
+
+####################   Ending of a test ##################################
+
+
+####################  Starting of a test ############################
+
+The time when Test harness executed these logs is131570822133766292
+
+
+
+  test {0} failed to run 
+
+
+
+ attempting to create instance of {0} ,TestBuild.Test2
+
+
+
+###################  Test status #############################
+
+
+  test {0} failed
+
+
+####################   Ending of a test ##################################
+
+
+####################  Starting of a test ############################
+
+The time when Test harness executed these logs is131570822133922549
+
+
+
+  test {0} failed to run 
+
+
+
+ attempting to create instance of {0} ,TestBuild.Test3
+
+
+
+  test failed with message "{0}"Exception has been thrown by the target of an invocation.
+  test {0} failed to run 
+
+  test {0} failed to run 
+
+  test {0} failed to run 
+
+  test {0} failed to run 
+
+ loaded {0} TestDriver.dll
+
+  test {0} failed to run 
+
+
+
+ attempting to create instance of {0} ,TestBuild.TestDriver
+
+
+
+###################  Test status #############################
+
+
+  test {0} passed
+
+
+####################   Ending of a test ##################################
+

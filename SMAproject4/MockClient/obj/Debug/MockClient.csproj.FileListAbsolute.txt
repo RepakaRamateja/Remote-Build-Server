@@ -1,0 +1,35 @@
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestRequestBuilder.exe.config
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestRequestBuilder.exe
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestRequestBuilder.pdb
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\Build Request.exe
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\IService.dll
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\PluggableCommService.exe
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestDeserialization.exe
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestHarnessMessages.exe
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestUtilities.exe
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\Build Request.pdb
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\Build Request.exe.config
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\IService.pdb
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\IService.dll.config
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\PluggableCommService.pdb
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\PluggableCommService.exe.config
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestDeserialization.pdb
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestDeserialization.exe.config
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestHarnessMessages.pdb
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestHarnessMessages.exe.config
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestUtilities.pdb
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\bin\Debug\TestUtilities.exe.config
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\MockClient.csprojResolveAssemblyReference.cache
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\CodePopUp.g.cs
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\MainWindow.g.cs
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\App.g.cs
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\TestRequestBuilder_MarkupCompile.cache
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\TestRequestBuilder_MarkupCompile.lref
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\CodePopUp.baml
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\MainWindow.baml
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\TestRequestBuilder.g.resources
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\TestRequestBuilder.Properties.Resources.resources
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\MockClient.csproj.GenerateResource.Cache
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\MockClient.csproj.CoreCompileInputs.cache
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\TestRequestBuilder.exe
+C:\Users\Rama Repaka\Desktop\SMAproject4\MockClient\obj\Debug\TestRequestBuilder.pdb

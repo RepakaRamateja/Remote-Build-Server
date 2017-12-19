@@ -1,0 +1,35 @@
+
+
+############################## start of the Build request ##############################
+
+
+
+
+
+ ######################### log start for the Test driver ########################### 
+
+
+
+
+ the command and output that is executed is shown below
+the time stamp is 131570822129603715
+
+
+  csc  /target:library  ThirdDriver.cs   TestedOne.cs  TestedTwo.cs  
+
+
+
+
+
+Generated-------->ThirdDriver.dll  in  ../../../CoreBuilder/Builderstorage/Builder8092
+
+
+
+ ############################# log end for the Test driver ##################################### 
+
+
+
+
+
+ ############################### end of the Build request ########################## 
+
