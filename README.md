@@ -13,6 +13,10 @@ The process, described above, supports continuous integration. That is, when new
 
 a Federation of servers, each providing a dedicated service for continuous integration.
 
+![alt text](https://github.com/RepakaRamateja/Remote-Build-Server/blob/master/images/federation.png)
+
+</br>
+
 The Federation consists of:
 
 
@@ -35,7 +39,6 @@ The user's primary interface into the Federation, serves to submit code and test
 
 
 
-
 This project focuses on  developing  a Remote Build Server and document its design with a document.
 
 Build Server functionality:
@@ -46,7 +49,7 @@ Use mock Repository and Test Harness servers that are functioning processes, wit
 
 Provide a mock Client process, using WPF, based on your GUI prototype that has just enough functionality to demonstrate that your Build Server functions as expected.
 
-Your Build Server Design Document should:
+Build Server Design Document should:
 elaborating with design details.
 
 Show activity diagrams, package diagrams, and class diagrams that illustrate the way you've implemented your server and its environment.
@@ -111,3 +114,72 @@ Shall used activity diagrams, package diagrams, and class diagrams to describe t
 
 Shall comment on changes to the core concept as your design evolved, and on deficiencies you feel your project incorporates3.
 
+</br>
+
+Package diagram
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/Remote-Build-Server/blob/master/images/package.png)
+
+</br>
+
+Process pool diagram
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/Remote-Build-Server/blob/master/images/processpool.png)
+
+</br>
+
+UserInterface 
+
+</br>
+
+Generate Xml Requests
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/Remote-Build-Server/blob/master/images/1.png)
+
+</br>
+
+Handle Build Requests
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/Remote-Build-Server/blob/master/images/2.png)
+
+</br>
+
+View Logs
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/Remote-Build-Server/blob/master/images/3.png)
+
+</br>
+
+Downloading Remote Logs by selecting and clicking on Download Button
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/Remote-Build-Server/blob/master/images/4.png)
+
+</br>
+
+Viewing the downloaded logs 
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/Remote-Build-Server/blob/master/images/5.png)
+
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/Remote-Build-Server/blob/master/images/6.png)
+
+
+</br>
+
+Please go through the design document for more better explanation.
