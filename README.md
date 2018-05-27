@@ -1,6 +1,3 @@
-This is Software modelling analysis course project 
-
-
 ####################  Remote Build Server  ################
 
 Background Information:
@@ -33,15 +30,19 @@ Test Harness:
 Runs tests, concurrently for multiple users, based on test requests and libraries sent from the Build Server. Clients will checkin, to the Repository, code for testing, along with one or more test requests. The repository sends code and requests to the Build Server, where the code is built into libraries and the test requests and libraries are then sent to the Test Harness. The Test Harness executes tests, logs results, and submits results to the Repository. It also notifies the author of the tests of the results.
 
 
-
 Client:
 The user's primary interface into the Federation, serves to submit code and test requests to the Repository. Later, it will be used view test results, stored in the repository.
 
 
+</br>
 
 This project focuses on  developing  a Remote Build Server and document its design with a document.
 
+</br>
+
 Build Server functionality:
+
+</br>
 
 Provide a Build Server that uses Message-Passing Communication based on your Comm prototype.
 
@@ -63,12 +64,15 @@ Note that, in these project, we will not be integrating our Build Server with a 
 
 So the mock Repository and mock Test Harness are simple servers, running in their own processes, using our Message-Passing Communication, to send and receive requests and replys. However, the Mock operations are simple not nearly as complex as full up Federated servers.
 
+</br>
 
-Requirements:
+-----------------------------    Requirements:  -----------------------
 
 Build Server
 
-Shall be prepared using C#, the .Net Frameowrk, and Visual Studio 2017.
+</br>
+
+Shall be prepared using C#, the .Net Framework, and Visual Studio 2017.
 
 Shall include a Message-Passing Communication Service built with WCF. It is expected that you will build on your Project #3 Comm Prototype.
 
