@@ -128,7 +128,7 @@ Package diagram
 
 </br>
 
-Process pool diagram
+Process pool diagram (please refer for more better clear understanding)
 
 </br>
 
