@@ -186,4 +186,4 @@ Viewing the downloaded logs
 
 </br>
 
-Please go through the design document (FinalSmaOcd) for more better explanation.
+Please go through the design document (FinalSmaOcd) for more better clear understanding.
