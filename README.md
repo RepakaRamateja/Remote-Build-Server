@@ -1,4 +1,4 @@
-####################  Remote Build Server  ################
+##########################################################  Remote Build Server  ######################################################################
 
 Background Information:
 
@@ -66,7 +66,7 @@ So the mock Repository and mock Test Harness are simple servers, running in thei
 
 </br>
 
------------------------------    Requirements:  -----------------------
+-----------------------------------------------------------    Requirements:  -----------------------------------------------------------------------
 
 Build Server
 
@@ -186,4 +186,4 @@ Viewing the downloaded logs
 
 </br>
 
-Please go through the design document for more better explanation.
+Please go through the design document (FinalSmaOcd) for more better explanation.
