@@ -143,12 +143,6 @@ Prerequisites:
 
  Microsoft Visual Studio 2015 0r 2017
 
- IIS installed and then create virtual directory in IIS which points to a local system directory
-
- Finally in the run.bat 
-
- change the name of directory under command start MsgServer.exe  (local system directory pointed to IIS)  coderepo  9090 
-
 
   Now follow the below steps
 
