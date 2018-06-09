@@ -120,7 +120,7 @@ Shall comment on changes to the core concept as your design evolved, and on defi
 
 </br>
 
-                        Package diagram
+                              Package diagram
 
 </br>
 
@@ -157,7 +157,7 @@ Prerequisites:
 
 </br>
 
-					     UserInterface 
+					       UserInterface 
 
 </br>  
 
